@@ -1,0 +1,44 @@
+:root {
+    --color-dark:  #161616;
+    --color-ocean:  #416dea;
+    --color-grass: #3dd28d;
+    --color-green: #388E3C;
+    --color-snow: #FFFFFF;
+    --color-salmon: #F32C52;
+    --color-sun: #feee7d;
+    --color-alge: #7999a9;
+    --color-flower: #353866;
+    --color-smoke: #e4e4e4;
+    --color-red: #f44336;
+    --color-dark-blue: #3f51b5;
+}
+
+.btn-color-ocean {
+    background: var(--color-ocean);
+    color: #FFF;
+}
+
+.btn-color-salmon {
+    background: var(--color-salmon);
+    color: #FFF;
+}
+
+.btn-color-green {
+    background: var(--color-green);
+    color: #FFF;
+}
+
+.btn-color-red {
+    background: var(--color-red);
+    color: #FFF;
+}
+
+.btn-color-dark-blue {
+    background: var(--color-dark-blue);
+    color: #FFF;
+}
+
+.btn-color-flower {
+    background: var(--color-flower);
+    color: #FFF;
+}

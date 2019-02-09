@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1.26384,-8.95531e-32,2.40249e-31,0.875381,-189.084,567.152)">
+        <rect x="182" y="114" width="819" height="22"/>
+    </g>
+    <g transform="matrix(3.3585e-17,-0.774636,0.872512,7.47662e-17,1111.63,827.188)">
+        <rect x="182" y="114" width="819" height="22"/>
+    </g>
+    <g transform="matrix(1.30148,0,0,1.16256,-68.9421,-73.225)">
+        <text x="387px" y="380px" style="font-family:'Arial-Black', 'Arial', sans-serif;font-weight:900;font-size:73.621px;">SALLE 1</text>
+    </g>
+    <g transform="matrix(1.43097,-1.01396e-31,2.40249e-31,0.875381,-202.116,-67.2754)">
+        <rect x="182" y="114" width="819" height="22"/>
+    </g>
+    <g transform="matrix(3.3585e-17,-0.774636,0.872512,7.47662e-17,-58.5306,807.929)">
+        <rect x="182" y="114" width="819" height="22"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,30.6116,4.43583)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,280.691,4.43583)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,530.149,4.43583)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,780.228,4.43583)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,179.054,-501.073)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,429.134,-501.073)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,678.592,-501.073)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g transform="matrix(2.82836,0,0,1.87225,928.671,-501.073)">
+        <path d="M99,351L12,351L12,296L99,296L99,351ZM12.53,296.801L12.53,350.199L98.47,350.199L98.47,296.801L12.53,296.801Z" style="fill:rgb(114,114,114);"/>
+    </g>
+    <g id="Capteur1" transform="matrix(2.39941,0,0,2.4073,364.103,-546.381)">
+        <rect x="336.641" y="314" width="16.359" height="26" style="fill:rgb(26,122,230);"/>
+    </g>
+    <g id="Capteur2" transform="matrix(2.39941,0,0,2.4073,-747.609,-444.444)">
+        <rect x="336.641" y="314" width="16.359" height="26" style="fill:rgb(26,122,230);"/>
+    </g>
+    <g id="Laser" transform="matrix(8.25678,0,0,0.740707,-1703.55,434.363)">
+        <rect x="336.641" y="314" width="16.359" height="26" style="fill:rgb(26,122,230);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,840.864,-151.239)">
+        <g id="TextCapteur1">
+            <text x="166px" y="350.993px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">T<tspan x="173.356px 182.418px " y="350.993px 350.993px ">em</tspan>pér<tspan x="221.784px 230.503px 236.743px 246.402px 252.599px " y="350.993px 350.993px 350.993px 350.993px 350.993px ">ature</tspan></text>
+            <text x="265.729px" y="350.993px" style="font-family:'Calibri', sans-serif;font-size:18px;">: 23 °C</text>
+            <text x="166px" y="384.966px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">Humidit<tspan x="226.179px 235.24px " y="384.966px 384.966px ">é </tspan>:</text>
+            <text x="248.345px" y="384.966px" style="font-family:'Calibri', sans-serif;font-size:18px;">20 %</text>
+            <text x="166px" y="418.938px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">Fumée :</text>
+            <text x="229.791px" y="418.938px" style="font-family:'Calibri', sans-serif;font-size:18px;">non</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-48.8504,-29.6281)">
+        <g id="TextCapteur2">
+            <text x="166px" y="350.993px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">T<tspan x="173.356px 182.418px " y="350.993px 350.993px ">em</tspan>pér<tspan x="221.784px 230.503px 236.743px 246.402px 252.599px 261.66px " y="350.993px 350.993px 350.993px 350.993px 350.993px 350.993px ">ature </tspan>:</text>
+            <text x="274.765px" y="350.993px" style="font-family:'Calibri', sans-serif;font-size:18px;">23 °C</text>
+            <text x="166px" y="384.966px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">Humidit<tspan x="226.179px " y="384.966px ">é</tspan></text>
+            <text x="239.31px" y="384.966px" style="font-family:'Calibri', sans-serif;font-size:18px;">: 20 %</text>
+            <text x="166px" y="418.938px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">Fumée :</text>
+            <text x="229.791px" y="418.938px" style="font-family:'Calibri', sans-serif;font-size:18px;">non</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,928.705,306.379)">
+        <g id="TextLaser">
+            <text x="166px" y="350.993px" style="font-family:'Calibri-Bold', 'Calibri', sans-serif;font-weight:700;font-size:18px;">Laser :</text>
+            <text x="218.242px" y="350.993px" style="font-family:'Calibri', sans-serif;font-size:18px;">non</text>
+        </g>
+    </g>
+</svg>

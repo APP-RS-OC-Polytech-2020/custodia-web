@@ -1,0 +1,8 @@
+{
+   "type": "commande",
+   "mode": "burn",
+   "robot": {
+       "address": ""
+    },
+   "rotate": ""
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body {
+    --color-bg: #212A44;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	background-color: #fefefe;
+}
+
+main {
+	flex-grow: 1;
+	margin-bottom: 200px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+a {
+    color: #8B0000;
+}
+
+a:hover {
+    color: rgb(168, 48, 37);
+    text-decoration: none;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.font-muli {
+    font-family: "Muli", sans-serif;
+}
+
+.text-primary {
+    color: rgb(48, 142, 224);
+}
+
+/* Navbar */
+.navbar {
+	background-color: var(--color-bg);
+}
+
+/* Footer */
+.footer {
+	margin: auto;
+	width: 100%;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	color: #fff;
+    background-color: var(--color-bg);
+}
+
+.footer hr {
+	background: #ebebeb;
+	height: 1px;
+    width: 90%;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.footer .icons {
+    color: #fff;
+    text-align: center;
+}
+
+.footer .icons i {
+    color: #fff;
+}
+
+/* Composants */
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.padding-bot-20 {
+    padding-bottom: 20px;
+}
+
+.jumbotron-page {
+    background: url("../img/fond.jpg") no-repeat;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+/* Accueil */
+.image-accueil {
+    background: url("../img/fond.jpg") no-repeat;
+    background-size: cover;
+    min-width: 80%;
+    margin-bottom: 50px;
+    min-height: 400px;
+}
+
+.image-titre {
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.titre-accueil {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.turn {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.turn:hover i {
+    color: #353866;
+}
+
+#manager {
+    height: 350px;
+}
+
+.video {
+    max-height: 500px;
+    max-width: 700px;
+    overflow: hidden;
+}

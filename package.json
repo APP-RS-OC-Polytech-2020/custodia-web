@@ -1,0 +1,25 @@
+{
+  "name": "custodia",
+  "version": "1.0.0",
+  "description": "Website for the Custodia project (APP RSOC 2020 Polytech Annecy)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs": "./node_modules/.bin/jsdoc public/js -d docs/js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APP-RS-OC-Polytech-2020/Custodia.git"
+  },
+  "author": "Franck Battu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APP-RS-OC-Polytech-2020/Custodia/issues"
+  },
+  "homepage": "https://github.com/APP-RS-OC-Polytech-2020/Custodia#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}
