@@ -124,6 +124,7 @@ $robots = $db->query("SELECT * FROM robot");
                 </div>
             </div>
             <br>
+
             <object data="public/img/map.svg" type="image/svg+xml" id="map"></object>
 
         </div>

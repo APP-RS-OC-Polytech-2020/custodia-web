@@ -39,3 +39,8 @@ const getBackgroundColor = (data) => {
   }
   return '#007E33';
 };
+
+const displayAlertOnMap = () => {
+  laser.style.fill = '#CC0000';
+  textLaser.children[1].textContent = 'on'
+};
