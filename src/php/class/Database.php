@@ -3,14 +3,14 @@
 class Database
 {
 	public static $connection;
+    private $db = "rsoc_20";
 //    private $host = "localhost:/var/run/mysql/mysql_tp.sock";
 //    private $user = "rsoc_20";
 //    private $password = "yd72vctb";
-    private $db = "rsoc_20";
 
-    private $host = "192.168.1.20";
-    private $user = "pi";
-    private $password = "narradium";
+    private $host = "narradium.fr";
+    private $user = "custodia";
+    private $password = "App-rs-oc-2020";
 
 	public function __construct()
 	{
