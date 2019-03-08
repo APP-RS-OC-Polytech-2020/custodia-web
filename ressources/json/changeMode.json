@@ -1,4 +1,7 @@
 {
     "manualMode": "",
-    "type": "auto"
+    "type": "auto",
+    "robot": {
+        "ip": ""
+    }
 }

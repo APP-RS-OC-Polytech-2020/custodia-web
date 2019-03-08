@@ -107,7 +107,7 @@ $robots = $db->query("SELECT * FROM robot");
         <div class="col-lg-8">
           <div class="text-center">
             <div class="video">
-              <!--<img class="img-fluid" src="http://193.48.125.70:50010">-->
+              <img class="img-fluid" src="http://193.48.125.70:50010">
             </div>
           </div>
         </div>

@@ -52,6 +52,7 @@ selectChangeMode.addEventListener("change", event => {
   loadJSON('changeMode.json')
     .then(data => {
       data.manualMode = manualMode;
+      data.robot.ip = globalAddressRobot;
       sendData(data);
     });
 });
