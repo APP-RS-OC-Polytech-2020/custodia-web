@@ -29,6 +29,10 @@ switch($page) {
         $title = 'Déconnexion';
         include 'src/php/templates/logout.php';
         break;
+    case 'admin':
+        $title = 'Admin';
+        include 'src/php/templates/admin.php';
+        break;
     default:
         $title = 'Accueil';
         include 'src/php/templates/home.php';

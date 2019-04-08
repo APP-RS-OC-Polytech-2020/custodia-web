@@ -18,6 +18,7 @@ $meanSmoke = number_format(floatval($meanSmoke), 2);
 $meanHumidity = mysql_fetch_array($db->query("SELECT AVG(`humidity`) FROM sensor"));
 $meanHumidity = $meanHumidity[0];
 $meanHumidity = number_format(floatval($meanHumidity), 2);
+$hasSmoke = $meanHumidity >= 600 ? true : false;
 ?>
 
 <div class="jumbotron jumbotron-page rounded-0">
@@ -48,7 +49,7 @@ $meanHumidity = number_format(floatval($meanHumidity), 2);
             <div class="card rounded-0">
                 <div class="card-body font-poppins">
                     <p class="text-primary font-weight-bold">Fumée</p>
-                    <h1 class="text-center"><?= $meanSmoke ?> ppm</h1>
+                    <h1 class="text-center"><?= $hasSmoke ? 'Oui' : 'Non'   ?></h1>
                 </div>
             </div>
         </div>

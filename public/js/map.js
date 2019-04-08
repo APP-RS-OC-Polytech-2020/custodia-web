@@ -25,23 +25,25 @@ const displayOnMap = (message) => {
     case "84:F3:EB:8E:68:10":
       capteur1Temperature.textContent = `${data.temperature} °C`;
       capteur1Humidite.textContent = `${data.humidity} %`;
-      capteur1Fumee.textContent = data.smoke === 0 ? `non` : `oui`;
+      capteur1Fumee.textContent = data.smoke <= 600 ? `non` : `oui`;
       capteur1.style.fill = backgroundColor;
       break;
 
-    case "DC:4F:22:46:60:89":
+    case "BC:DD:C2:14:92:CF":
       capteur2Temperature.textContent = `${data.temperature} °C`;
       capteur2Humidite.textContent = `${data.humidity} %`;
-      capteur2Fumee.textContent = data.smoke === 0 ? `non` : `oui`;
+      capteur2Fumee.textContent = data.smoke <= 600 ? `non` : `oui`;
       capteur2.style.fill = backgroundColor;
+      break;
+    case "DC:4F:22:46:60:89":
       break;
   }
 };
 
 const getBackgroundColor = (data) => {
-  if (data.smoke > 0) {
+  if (data.smoke >= 600) {
     return '#CC0000';
-  } else if (data.temperature > 45 || data.temperature < 10 || data.humidity > 20) {
+  } else if (data.temperature > 45 || data.temperature < 10 || data.humidity > 100) {
     return '#FF8800';
   }
   return '#007E33';

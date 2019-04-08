@@ -84,7 +84,6 @@ const openConnection = (addressServer, addressRobot) => {
   socket.onmessage = (event) => {
     let data = JSON.parse(event.data);
     treatement(data, addressServer);
-
   };
 
   // Fermeture de la connexion
@@ -94,7 +93,7 @@ const openConnection = (addressServer, addressRobot) => {
 };
 
 /**
- * Etablissation de la connexion au serveur
+ * Etablissement de la connexion au serveur
  * Envoie d'un message d'initialisation
  */
 const initConnection = (addressRobot) => {
@@ -138,7 +137,6 @@ const treatement = (message, addressServer) => {
       let temperature = message.data.temperature;
       let smoke = message.data.smoke;
       let humidity = message.data.humidity;
-
       Snackbar.show({
         text: `${name} -> Température : ${temperature} °C, Humidité : ${humidity} %, Fumée: ${smoke}`,
         pos: 'bottom-center',
@@ -191,8 +189,8 @@ manager.on('dir', (event, data) => {
         json.robot.ip = globalAddressRobot;
         json.data.x = data.instance.frontPosition.y * (-1);
         json.data.y = data.instance.frontPosition.x * (-1)
-        json.data.power = data.force * 5;
-        sendData(json);
+        json.data.power = data.force * 8;
+        console.log(json)
       })
   }
 });

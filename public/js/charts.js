@@ -1,7 +1,6 @@
 let time = [];
 let temperatures = [];
 let humidities = [];
-let smokes = [];
 
 fetch(`src/php/ajax/charts.php`, { method: 'get' })
     .then(response => response.json())
@@ -10,7 +9,6 @@ fetch(`src/php/ajax/charts.php`, { method: 'get' })
             time.push(data.captureTime);
             temperatures.push(data.temperature);
             humidities.push(data.humidity);
-            smokes.push(data.smoke);
         });
 
         // Création du graphique de température
@@ -53,27 +51,6 @@ fetch(`src/php/ajax/charts.php`, { method: 'get' })
                 maintainAspectRatio: false
             }
         });
-
-        // Création du graphique de monoxyde
-        let ctxSmoke = document.querySelector('#chartSmoke').getContext('2d');
-        let chartSmoke = new Chart(ctxSmoke, {
-            type: 'line',
-            data: {
-                labels: time,
-                datasets: [
-                    {
-                        data: smokes,
-                        label: "Fumée",
-                        borderColor: 'rgba(255, 159, 64, 1)',
-                        backgroundColor: 'rgba(255, 159, 64, 0.2)'
-                    }
-                ]
-            },
-            options: {
-                maintainAspectRatio: false
-            }
-        });
-
     });
 
 

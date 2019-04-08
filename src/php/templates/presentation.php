@@ -1,3 +1,8 @@
+<?php
+require_once 'src/php/autoload.php';
+$session = Session::getInstance();
+?>
+
 <div class="jumbotron jumbotron-page rounded-0">
     <h1 class="display-3">Custodia</h1>
     <p class="lead">Présentation l'APP RSOC 2020 à Polytech Annecy</p>

@@ -4,7 +4,7 @@ require '../autoload.php';
 
 $db = Database::getInstance();
 
-$sensors = $db->query("SELECT * FROM sensor ORDER BY captureTime LIMIT 50");
+$sensors = $db->query("SELECT * FROM sensor ORDER BY captureTime LIMIT 100");
 $db->close();
 
 $row = array();
