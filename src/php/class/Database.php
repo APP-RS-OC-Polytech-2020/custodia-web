@@ -8,6 +8,10 @@ class Database
     private $user = "rsoc_20";
     private $password = "yd72vctb";
 
+//    private $host = "narradium.fr";
+//    private $user = "custodia";
+//    private $password = "App-rs-oc-2020";
+
     public function __construct()
     {
         self::$connection = @mysql_pconnect($this->host, $this->user, $this->password);

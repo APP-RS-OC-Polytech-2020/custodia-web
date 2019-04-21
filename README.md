@@ -1,6 +1,7 @@
 # Client web de Custodia
 
 Le client web est codé en PHP 5.2.1 et est utilisable sur des serveurs PHP <= 5.6.
+Depuis PHP 5.5.0, l'extension MySQL utilisée dans le projet est devenu obsolète. Si une version PHP > 5.5.0 est utilisée, des messages d'avertissements sont affichées. Il est possible de contourner ce problème en désactivant l'affichage des avertissements (`php -S localhost:8080 -display_errors=0` ou `@mysql_pconnect(...)`).
 
 ## Structure
 Le code du site web est réparti en plusieurs parties :   
